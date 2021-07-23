@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  <header>
+    <h2>Simple, traffic-based pricing</h2>
+    <p>Sign-up for our 30-day trial. No credit card required.</p>
+  </header>
+  <section class="card">
+    <div class="card-body">
+      <div class="header">
+        <p class="pageview"><span>100K</span> Pageviews</p> 
+        <p class="price desktop-view"><span class="bold">$<span class="price-detail">16.00</span> </span> /<span class="price-unit">month</span></p>
+      </div>
+      <div class="slider">
+        <input type="range" class="slider-bar" min="1" max="300" value="100">
+      </div>
+      <div class="header">
+        <p class="price mobile-view"><span class="bold">$<span class="price-detail">16.00</span> </span> /<span class="price-unit">month</span></p>
+      </div>
+      <div class="based-on">
+        <span>Monthly Billing</span>
+        <label class="toggle">
+          <input type="checkbox" id="billing-based">
+          <span class="toggle-switch"></span>
+        </label>
+        
+        <span>Yearly Billing </span>
+        <span class="discount desktop-view">25% discount</span>
+        <span class="discount mobile-view">-25%</span>
+      </div>
+    </div>
+    <hr>
+    <div class="card-footer">
+      <ul>
+        <li><img src="images/icon-check.svg" alt=""> Unlimited websites</li>
+        <li><img src="images/icon-check.svg" alt=""> 100% data ownership</li>
+        <li><img src="images/icon-check.svg" alt=""> Email reports</li>
+      </ul>
+      <a href="" >Start my trial</a>
+    </div>
+  </section>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Manish Twayana</a>.
+    </div>
+  </footer>
+  
+</body>
+</html>
